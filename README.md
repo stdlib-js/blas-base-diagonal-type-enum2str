@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@esm/index.mjs';
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@v0.1.0-esm/index.mjs';
 ```
 
 #### enum2str( value )
@@ -103,7 +103,7 @@ var v = enum2str( -999999999 );
 <script type="module">
 
 import str2enum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-str2enum@esm/index.mjs';
-import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@esm/index.mjs';
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@v0.1.0-esm/index.mjs';
 
 var str = enum2str( str2enum( 'unit' ) );
 // returns 'unit'
