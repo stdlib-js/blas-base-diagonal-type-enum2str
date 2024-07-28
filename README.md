@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-diagonal-type-enum2str/tags). For example,
+
+```javascript
 import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@v0.1.1-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ var v = enum2str( -999999999 );
 <script type="module">
 
 import str2enum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-str2enum@esm/index.mjs';
-import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@v0.1.1-esm/index.mjs';
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-enum2str@esm/index.mjs';
 
 var str = enum2str( str2enum( 'unit' ) );
 // returns 'unit'
