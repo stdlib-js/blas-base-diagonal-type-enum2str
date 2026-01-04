@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/blas-base-diagonal-types": "^0.0.2",
-    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main"
+    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.2",
